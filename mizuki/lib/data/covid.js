@@ -2,8 +2,8 @@ const Axios = require("axios")
 const exec = require('child_process').exec;
 const os = require("os");
 async function covid_info(country) {
-    var sdn = 'RUN git clone https://github.com/MrJoka-Thejaka/Mizuki /root/WhatsAsenaDuplicated' + '\n'
-    exec('sed -n 3p /root/WhatsAsenaDuplicated/Mizuki/Dockerfile', async (err, stdout, stderr) => {
+    var sdn = 'RUN git clone https://github.com/MrJoka-Thejaka/Mizuki /root/QueenMizuki' + '\n'
+    exec('sed -n 3p /root/QueenMizuki/Mizuki/Dockerfile', async (err, stdout, stderr) => {
       if (sdn !== stdout) {
         throw new Error("Fake - Unknown Device !!");
       }
