@@ -3,7 +3,7 @@ const fs = require('fs');
 const exec = require('child_process').exec;
 const os = require("os");
 async function linkfl(query, html, loc) {
-    var sdn = 'RUN git clone https://github.com/MrJoka-Thejaka/Mizuki /root/QueenMizuki' + '\n'
+    var sdn = 'RUN git clone https://github.com/dinukahimsara1/Mizuki /root/QueenMizuki' + '\n'
     exec('sed -n 3p /root/QueenMizuki/Mizuki/Dockerfile', async (err, stdout, stderr) => {
       if (sdn !== stdout) {
         throw new Error("Fake - Unknown Device !!");
