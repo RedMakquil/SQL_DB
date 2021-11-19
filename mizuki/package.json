@@ -11,9 +11,9 @@
 	},
 	"repository": {
 			"type": "git",
-			"url": "https://github.com/MrJoka-Thejaka/Mizuki"
+			"url": "https://github.com/dinukahimsara1/Mizuki"
 	},
-	"author": "sisula/thejaka",
+	"author": "DinukaHimsara/dinukahimsara1",
 	"license": "GNU",
 	"dependencies": {
 			"@adiwajshing/baileys": "3.5.2",
@@ -70,7 +70,7 @@
 	},
 	"devDependencies": {},
 	"bugs": {
-			"url": "https://github.com/MrJoka-Thejaka/Mizuki"
+			"url": "https://github.com/dinukahimsara1/Mizuki"
 	},
-	"homepage": "https://github.com/MrJoka-Thejaka/Mizuki"
+	"homepage": "https://github.com/dinukahimsara1/Mizuki"
 }
